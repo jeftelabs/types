@@ -1,0 +1,9 @@
+{
+  "extends": "@arapucajs/tsconfig/tsconfig.package.json",
+  "compilerOptions": {
+    "rootDir": "./",
+    "moduleResolution": "nodenext",
+    "outDir": "./build",
+    "rewriteRelativeImportExtensions": true
+  }
+}
